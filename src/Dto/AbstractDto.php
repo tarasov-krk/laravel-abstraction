@@ -2,7 +2,9 @@
 
 namespace TarasovKrk\LaravelAbstraction\Dto;
 
-abstract class AbstractDto
+use Spatie\LaravelData\Data;
+
+abstract class AbstractDto extends Data
 {
 
 }
