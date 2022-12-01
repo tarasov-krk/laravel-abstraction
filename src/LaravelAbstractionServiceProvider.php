@@ -9,7 +9,12 @@ class LaravelAbstractionServiceProvider extends ServiceProvider
     public function boot()
     {
         $this->publishes([
-            $configPath => config_path('modules.php'),
+            __DIR__ . '/../config/modules.php' => config_path('modules.php'),
         ], 'config');
+    }
+
+    public function register()
+    {
+        $this->mergeConfigFrom(__DIR__ . '/../config/modules.php', 'modules');
     }
 }

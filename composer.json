@@ -26,5 +26,12 @@
       "TarasovKrk\\LaravelAbstraction\\": "src",
       "Modules\\": "../../../modules/"
     }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "TarasovKrk\\LaravelAbstraction\\LaravelAbstractionServiceProvider"
+      ]
+    }
   }
 }
