@@ -1,0 +1,8 @@
+<?php declare(strict_types=1);
+
+namespace TarasovKrk\LaravelAbstraction\Dto;
+
+abstract class AbstractDto
+{
+
+}
