@@ -107,7 +107,7 @@ class TaskMakeCommand extends GeneratorCommand
             'NAME'             => $this->getModelName(),
             'FILLABLE'         => $this->getFillable(),
             'NAMESPACE'        => $this->getClassNamespace($module),
-            'CLASS'            => $this->getClass(),
+            'CLASS'            => $this->getModelName(),
             'LOWER_NAME'       => $module->getLowerName(),
             'MODULE'           => $this->getModuleName(),
             'STUDLY_NAME'      => $module->getStudlyName(),
