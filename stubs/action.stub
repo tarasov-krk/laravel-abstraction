@@ -1,0 +1,13 @@
+<?php declare(strict_types=1);
+
+namespace $NAMESPACE$;
+
+use TarasovKrk\LaravelAbstraction\Actions\AbstractAction;
+
+final class $CLASS$ extends AbstractAction
+{
+    public function call()
+    {
+        //
+    }
+}

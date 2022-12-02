@@ -101,6 +101,8 @@ return [
         | Set the generate key to false to not generate that folder
         */
         'generator' => [
+            'action'          => ['path' => 'Actions', 'generate' => true],
+            'task'            => ['path' => 'Tasks', 'generate' => false],
             'config'          => ['path' => 'Config', 'generate' => true],
             'command'         => ['path' => 'UI/Cli', 'generate' => true],
             'migration'       => ['path' => 'Database/Migrations', 'generate' => false],
@@ -185,6 +187,9 @@ return [
         Commands\ResourceMakeCommand::class,
         Commands\TestMakeCommand::class,
         Commands\LaravelModulesV6Migrator::class,
+        \TarasovKrk\LaravelAbstraction\Commands\ActionMakeCommand::class,
+        \TarasovKrk\LaravelAbstraction\Commands\TaskMakeCommand::class,
+        \TarasovKrk\LaravelAbstraction\Commands\RepositoryMakeCommand::class,
     ],
 
     /*

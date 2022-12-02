@@ -1,0 +1,13 @@
+<?php declare(strict_types=1);
+
+namespace $NAMESPACE$;
+
+use TarasovKrk\LaravelAbstraction\Tasks\AbstractTask;
+
+final class $CLASS$ extends AbstractTask
+{
+    public function call()
+    {
+        //
+    }
+}
