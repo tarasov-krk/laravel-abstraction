@@ -2,11 +2,9 @@
 
 namespace $NAMESPACE$;
 
-use TarasovKrk\LaravelAbstraction\Actions\AbstractAction;
-
-final class $CLASS$ extends AbstractAction
+final class $CLASS$
 {
-    public function call()
+    public function run()
     {
         //
     }

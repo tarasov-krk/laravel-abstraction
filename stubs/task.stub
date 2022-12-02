@@ -2,11 +2,9 @@
 
 namespace $NAMESPACE$;
 
-use TarasovKrk\LaravelAbstraction\Tasks\AbstractTask;
-
-final class $CLASS$ extends AbstractTask
+final class $CLASS$
 {
-    public function call()
+    public function run()
     {
         //
     }
