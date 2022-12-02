@@ -132,7 +132,7 @@ class RepositoryMakeCommand extends GeneratorCommand
      */
     private function getModelName()
     {
-        return Str::studly($this->argument('repository'));
+        return Str::studly($this->argument('repository')) . "Repository";
     }
 
     /**

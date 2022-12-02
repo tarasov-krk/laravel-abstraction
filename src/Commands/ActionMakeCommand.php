@@ -132,7 +132,7 @@ class ActionMakeCommand extends GeneratorCommand
      */
     private function getModelName()
     {
-        return Str::studly($this->argument('action'));
+        return Str::studly($this->argument('action')) . "Action";
     }
 
     /**

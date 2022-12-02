@@ -132,7 +132,7 @@ class TaskMakeCommand extends GeneratorCommand
      */
     private function getModelName()
     {
-        return Str::studly($this->argument('task'));
+        return Str::studly($this->argument('task')) . "Task";
     }
 
     /**
