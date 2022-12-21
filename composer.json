@@ -28,6 +28,11 @@
       "Modules\\": "../../../modules/"
     }
   },
+  "scripts": {
+    "post-install-cmd": [
+      "php artisan vendor:publish --provider=\"TarasovKrk\\LaravelAbstraction\\LaravelAbstractionServiceProvider"
+    ]
+  },
   "extra": {
     "laravel": {
       "providers": [
