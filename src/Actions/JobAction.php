@@ -11,4 +11,16 @@ use Illuminate\Queue\SerializesModels;
 abstract class JobAction implements ShouldQueue
 {
     use Dispatchable, InteractsWithQueue, Queueable, SerializesModels;
+
+    public array $arguments;
+
+    public function __construct(...$arguments)
+    {
+        $this->arguments = $arguments;
+    }
+
+    public function handle()
+    {
+        $this->run(...$this->arguments);
+    }
 }
