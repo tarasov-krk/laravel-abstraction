@@ -15,9 +15,9 @@
     }
   ],
   "require": {
-    "php": "^8.1 || ^8.2",
+    "php": "^8.1 || ^8.2 || ^8.3",
     "ext-json": "*",
-    "laravel/framework": "^9.0 || ^10.0",
+    "laravel/framework": "^9.0 || ^10.0 || ^11.0",
     "tarasov-krk/laravel-repository": "^1.0",
     "nwidart/laravel-modules": "^9.0",
     "spatie/laravel-data": "^2.0"
