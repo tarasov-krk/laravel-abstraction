@@ -20,7 +20,7 @@
     "laravel/framework": "^9.0 || ^10.0 || ^11.0",
     "tarasov-krk/laravel-repository": "^1.0",
     "nwidart/laravel-modules": "^9.0",
-    "spatie/laravel-data": "^2.0"
+    "spatie/laravel-data": "^4.9.0"
   },
   "autoload": {
     "psr-4": {
